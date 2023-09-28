@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "rootDir": "./",
+    "module": "ES6",
+    "outDir": "./dist/esm",
+    "target": "ES2015",
+    "lib": ["ESNext", "DOM"],
+    "types": ["playwright", "node"],
+    "declaration": true,
+    "sourceMap": true,
+    "strict": true,
+    "noImplicitAny": false,
+    "moduleResolution": "node",
+    "declarationMap": false,
+    "forceConsistentCasingInFileNames": true
+  },
+  "exclude": ["node_modules", "dist"]
+}
